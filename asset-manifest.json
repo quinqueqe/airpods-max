@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/airpods-max/static/css/main.3c9feb8e.css",
+    "main.js": "/airpods-max/static/js/main.ba301400.js",
+    "static/media/background.jpg": "/airpods-max/static/media/background.281e99ca21c9e489e7b7.jpg",
+    "static/media/airpods-max-select-skyblue-202011 1.png": "/airpods-max/static/media/airpods-max-select-skyblue-202011 1.ce02f05c57668000e6c5.png",
+    "static/media/airpods-max-select-pink-202011 1.png": "/airpods-max/static/media/airpods-max-select-pink-202011 1.0c6de2ccc3ec7b636cde.png",
+    "static/media/airpods-max-select-green-202011 1.png": "/airpods-max/static/media/airpods-max-select-green-202011 1.43595f5ac77aead44e0e.png",
+    "static/media/airpods-max-select-spacegray-202011 1.png": "/airpods-max/static/media/airpods-max-select-spacegray-202011 1.bb81ffab2dcaeeb33002.png",
+    "static/media/overlay.png": "/airpods-max/static/media/overlay.d2e735d9f8dee683f056.png",
+    "static/media/airpods-max-select-silver-202011 1.png": "/airpods-max/static/media/airpods-max-select-silver-202011 1.7c8fc9531c14655a812c.png",
+    "static/media/red.png": "/airpods-max/static/media/red.1f0648761187c5bdc92f.png",
+    "static/media/blue.png": "/airpods-max/static/media/blue.848429887e473465c4cb.png",
+    "static/media/green.png": "/airpods-max/static/media/green.21be1b4d96666528a5c3.png",
+    "static/media/black.png": "/airpods-max/static/media/black.5e9e4288f78d221fc731.png",
+    "static/media/white.png": "/airpods-max/static/media/white.0b236121557c8fb7cefb.png",
+    "index.html": "/airpods-max/index.html",
+    "main.3c9feb8e.css.map": "/airpods-max/static/css/main.3c9feb8e.css.map",
+    "main.ba301400.js.map": "/airpods-max/static/js/main.ba301400.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c9feb8e.css",
+    "static/js/main.ba301400.js"
+  ]
+}
