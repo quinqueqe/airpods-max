@@ -1,0 +1,70 @@
+.header {
+	position: relative;
+	z-index: 10;
+	&__inner {
+		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding-top: 40px;
+		padding-bottom: 80px;
+
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 40px;
+
+
+			li {
+				button {
+					font-family: var(--font-family);
+					font-weight: 700;
+					font-size: 16px;
+					color: var(--black);
+					position: relative;
+
+
+					&::before {
+						content: '';
+						position: absolute;
+						height: 2px;
+						/* Высота линии */
+						background-color: var(--black);
+						/* Цвет линии */
+						width: 100%;
+						/* Ширина линии (включает обе стороны) */
+						left: 50%;
+						/* Позиция в центре контейнера */
+						bottom: -5px;
+						/* Позиция снизу под текстом, теперь на 5 пикселей ниже */
+						transform-origin: center;
+						/* Точка начала трансформации по центру */
+						transform: translateX(-50%) scaleX(0);
+						/* Начальное состояние (невидимо) */
+						transition: transform 0.3s ease;
+						/* Плавный переход для анимации, теперь 0.3 секунды */
+					}
+
+					&:hover::before {
+						transform: translateX(-50%) scaleX(1);
+						/* Расширяем линию до полного размера при наведении */
+					}
+
+
+
+
+
+					&-active {
+						font-family: var(--font-family);
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 140%;
+						color: var(--grayscale-50);
+					}
+
+				}
+			}
+		}
+	}
+}

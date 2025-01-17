@@ -1,0 +1,36 @@
+.extremely {
+	padding-bottom: 80px;
+	&__inner {
+		&-top {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			align-items: center;
+			justify-content: center;
+			padding-bottom: 40px;
+
+			p {
+				text-align: center;
+				max-width: 653px;
+			}
+		}
+
+		&-bot {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 150px;
+
+
+			&-left {
+				display: flex;
+				flex-direction: column;
+				gap: 80px;
+
+				p {
+					max-width: 230px;
+				}
+			}
+		}
+	}
+}

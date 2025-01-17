@@ -1,0 +1,158 @@
+.black-link {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--white);
+
+	border-radius: 30px;
+	padding: 15px 58px;
+	// width: 150px;
+	// height: 50px;
+	background: var(--black);
+
+	&:hover {
+		background: var(--white);
+		color: var(--black);
+		transition: all 0.3s ease 0s;
+	}
+}
+
+
+
+
+
+
+.section {
+	padding-bottom: 180px;
+}
+
+.title-mini {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 120%;
+	color: var(--black);
+}
+
+.title-big {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 120%;
+	color: var(--black);
+}
+
+.desc {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	color: var(--black);
+}
+
+.mt52 {
+	margin-top: -52px;
+}
+
+
+// -----------------------------background--------------------------
+
+.background-red {
+	position: relative;
+
+	&::before {
+		content: "";
+		/* Создаем псевдоэлемент */
+		position: absolute;
+		/* Позволяет позиционировать элемент */
+		top: 0;
+		/* Занимает всю высоту родителя */
+		left: 0;
+		/* Занимает всю ширину родителя */
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
+		z-index: -2;
+		/* Устанавливаем z-index ниже содержимого */
+	}
+}
+
+.background-blue {
+	position: relative;
+
+	&::before {
+		content: "";
+		/* Создаем псевдоэлемент */
+		position: absolute;
+		/* Позволяет позиционировать элемент */
+		top: 0;
+		/* Занимает всю высоту родителя */
+		left: 0;
+		/* Занимает всю ширину родителя */
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+		z-index: -2;
+		/* Устанавливаем z-index ниже содержимого */
+	}
+}
+
+.background-black {
+	position: relative;
+
+	&::before {
+		content: "";
+		/* Создаем псевдоэлемент */
+		position: absolute;
+		/* Позволяет позиционировать элемент */
+		top: 0;
+		/* Занимает всю высоту родителя */
+		left: 0;
+		/* Занимает всю ширину родителя */
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #b6b6b6 0%, rgba(235, 235, 235, 0) 100%);
+		z-index: -2;
+		/* Устанавливаем z-index ниже содержимого */
+	}
+}
+
+.background-green {
+	position: relative;
+
+	&::before {
+		content: "";
+		/* Создаем псевдоэлемент */
+		position: absolute;
+		/* Позволяет позиционировать элемент */
+		top: 0;
+		/* Занимает всю высоту родителя */
+		left: 0;
+		/* Занимает всю ширину родителя */
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #ddead9 0%, rgba(235, 235, 235, 0) 100%);
+		z-index: -2;
+		/* Устанавливаем z-index ниже содержимого */
+	}
+}
+
+.background-white {
+	position: relative;
+
+	&::before {
+		content: "";
+		/* Создаем псевдоэлемент */
+		position: absolute;
+		/* Позволяет позиционировать элемент */
+		top: 0;
+		/* Занимает всю высоту родителя */
+		left: 0;
+		/* Занимает всю ширину родителя */
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #fafafa 0%, rgba(235, 235, 235, 0) 100%);
+		z-index: -2;
+		/* Устанавливаем z-index ниже содержимого */
+	}
+}

@@ -1,0 +1,37 @@
+.choose {
+	&__inner {
+		&-top {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 80px;
+
+			p {
+				max-width: 557px;
+				text-align: center;
+			}
+		}
+
+
+
+		&-list {
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			display: flex;
+
+			&-btn {
+				border: 1px solid var(--grey);
+				padding: 50px;
+				border-radius: 20px;
+				// width: 260px;
+				// height: 275px;
+				background: rgba(217, 217, 217, 0);
+
+				align-items: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.hero {
+	padding-bottom: 120px;
+	
+
+	&__inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+
+		p {
+			font-family: var(--font-family);
+			font-weight: 700;
+			font-size: 210px;
+			line-height: 120%;
+			color: var(--black);
+		}
+
+		&-air {
+			position: absolute;
+			top: 53px;
+			left: 0px;
+		}
+
+		&-pod {
+			position: absolute;
+			z-index: -1;
+			top: 53px;
+			left: 300px;
+		}
+
+		&-s {
+			position: absolute;
+			z-index: 3;
+			top: 105px;
+			left: 689px;
+		}
+
+		&-m {
+			position: absolute;
+			top: 343px;
+			right: 217px;
+		}
+
+		&-ax {
+			position: absolute;
+			z-index: -1;
+			top: 464px;
+			right: -13px;
+		}
+
+		&-img {
+			width: 800px;
+			height: 755px;
+		}
+	}
+}

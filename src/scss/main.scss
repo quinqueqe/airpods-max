@@ -1,0 +1,14 @@
+// базовые подключения
+@import "vars";
+@import "base";
+@import "nullstyle";
+@import "elements";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/choose";
+@import "./components/extremely";
+@import "./components/preserves";
+@import "./components/alive";
+@import "./components/footer";
